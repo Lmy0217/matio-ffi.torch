@@ -2,7 +2,7 @@ package = "matio"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/soumith/matio-ffi.torch.git"
+   url = "git://github.com/Lmy0217/matio-ffi.torch.git"
 }
 
 description = {
@@ -10,13 +10,12 @@ description = {
    detailed = [[
    See http://matio.sourceforge.net for more details.
    ]],
-   homepage = "https://github.com/soumith/matio-ffi.torch",
+   homepage = "https://github.com/Lmy0217/matio-ffi.torch",
    license = "BSD"
 }
 
 dependencies = {
-   "lua >= 5.1",
-   "torch >= 7.0"
+   "lua >= 5.1"
 }
 
 build = {
