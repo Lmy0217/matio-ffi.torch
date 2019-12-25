@@ -17,7 +17,7 @@ local C
 local ok, err = xpcall(function()  C = ffi.load('matio') end, traceback)
 if not ok then
    if ffi.os == 'Linux' then
-      ok, err = xpcall(function()  C = ffi.load('libmatio.so.2') end, traceback)
+      ok, err = xpcall(function()  C = ffi.load('/usr/local/lib/libmatio.so.10') end, traceback)
    end
    if not ok then
       print(err)
